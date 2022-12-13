@@ -1,6 +1,7 @@
 //import React from 'react';
-import ReactDOM from 'react-dom';
-import Pet from "./Pet";
+import ReactDOM from 'react-dom/client';
+import SearchParams from "./SearchParams";
+// import Pet from "./Pet";
 
 // const App = () => {
 //   return React.createElement("div", {}, [
@@ -27,11 +28,9 @@ const App = () => {
   return (
     <div>
       <h1>Learn React V8</h1>
-      <Pet name="Luna" anima="Dog" breed="Bulldog" />
-      <Pet name="Pepper" anima="Cat" breed="broe" />
-      <Pet name="Lemon" anima="bird" breed="Cockateil" />
+      <SearchParams />;
     </div>
-  )
+  );
 };
 
 const container = document.getElementById("root");
